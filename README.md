@@ -1,8 +1,9 @@
-<!--
-  GHOST-AKU // PROFILE README v2.0
-  Text-first, GitHub-native layout. No remote image services required.
-  AUTO_STATS region is maintained by scripts/update_readme.py.
--->
+<p align="center">
+  <img src="./assets/ghost-aku-sign.svg" alt="GHOST_AKU animated pixel sign" width="100%" />
+</p>
+
+<details>
+<summary>More / 展开原有内容</summary>
 
 # GHOST_AKU
 
@@ -116,3 +117,6 @@ OGOP 试着把游戏数字所有权和流转的规则写成开放、可讨论的
 ---
 
 <sub>**NO FINAL LEVEL. ONLY THE NEXT COMMIT.** · © GHOST-AKU</sub>
+
+
+</details>
