@@ -82,7 +82,7 @@ OGOP 试着把游戏数字所有权和流转的规则写成开放、可讨论的
 <!-- AUTO_STATS:START -->
 | PUBLIC REPOS | STARS RECEIVED | LATEST PUBLIC PUSH |
 | :---: | :---: | :--- |
-| *waiting for first sync* | *waiting for first sync* | *waiting for first sync* |
+| **12** | **10** | [`wozai`](https://github.com/GHOST-AKU/wozai) · `2026-10-29` |
 <!-- AUTO_STATS:END -->
 
 <sub>仅统计公开仓库；最近一次推送排除本主页仓库，避免自动更新自己刷新自己。数据可能受 GitHub API 和定时任务延迟影响。</sub>
