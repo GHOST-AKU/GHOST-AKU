@@ -1,8 +1,8 @@
-name: Refresh pixel telemetry
+name: Refresh README telemetry
 
 on:
   schedule:
-    - cron: '23 */6 * * *' # UTC; schedules may be delayed by GitHub
+    - cron: '23 */6 * * *' # UTC; GitHub scheduled runs may be delayed
   workflow_dispatch:
 
 permissions:
@@ -12,22 +12,20 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
-      - name: Fetch public GitHub metrics and draw SVG
+      - name: Refresh Markdown data using public GitHub API
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/update_status.py
-      - name: Commit updated telemetry if anything changed
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/update_readme.py
+      - name: Commit only meaningful README changes
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/live-status.svg
+          git add README.md
           if ! git diff --cached --quiet; then
-            git commit -m 'chore: refresh pixel telemetry'
+            git commit -m 'chore: refresh profile telemetry'
             git push
           fi
