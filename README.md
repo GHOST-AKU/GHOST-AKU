@@ -83,7 +83,7 @@ OGOP 试着把游戏数字所有权和流转的规则写成开放、可讨论的
 <!-- AUTO_STATS:START -->
 | PUBLIC REPOS | STARS RECEIVED | LATEST PUBLIC PUSH |
 | :---: | :---: | :--- |
-| **12** | **10** | [`ai-training-arcade`](https://github.com/GHOST-AKU/ai-training-arcade) · `2026-11-12` |
+| **13** | **10** | [`hikaru-birthday-surprise`](https://github.com/GHOST-AKU/hikaru-birthday-surprise) · `2026-11-12` |
 <!-- AUTO_STATS:END -->
 
 <sub>仅统计公开仓库；最近一次推送排除本主页仓库，避免自动更新自己刷新自己。数据可能受 GitHub API 和定时任务延迟影响。</sub>
